@@ -210,7 +210,7 @@ def eval(config, device):
         json.dump(config, outfile, indent=4)
 
     print("\n============= Model Summary =============")
-    print(model)  # print model summary
+    #print(model)  # print model summary
     print("")
 
     if config.algo.language_encoder == "clip":

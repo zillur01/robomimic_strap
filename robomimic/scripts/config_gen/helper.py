@@ -128,7 +128,7 @@ def set_env_settings(generator, args):
                 key="experiment.rollout.n",
                 name="",
                 group=-1,
-                values=[50],
+                values=[20],
                 value_names=[""],
             )
         generator.add_param(
@@ -204,7 +204,7 @@ def set_mod_settings(generator, args):
                 key="experiment.rollout.rate",
                 name="",
                 group=-1,
-                values=[50],
+                values=[20],
             )
 
 
@@ -230,7 +230,7 @@ def set_debug_mode(generator, args):
         key="experiment.rollout.n",
         name="",
         group=-1,
-        values=[2],
+        values=[5],
         value_names=[""],
     )
 
@@ -243,7 +243,7 @@ def set_debug_mode(generator, args):
         key="experiment.rollout.horizon",
         name="",
         group=-1,
-        values=[30],
+        values=[300],
         value_names=[""],
     )
 
@@ -251,7 +251,7 @@ def set_debug_mode(generator, args):
         key="experiment.rollout.rate",
         name="",
         group=-1,
-        values=[2],
+        values=[5],
         value_names=[""],
     )
     generator.add_param(
@@ -279,7 +279,7 @@ def set_debug_mode(generator, args):
         key="train.num_epochs",
         name="",
         group=-1,
-        values=[2],
+        values=[50],
         value_names=[""],
     )
     if args.name is None:
@@ -356,7 +356,7 @@ def set_num_seeds(generator, args):
                 key="train.seed",
                 name="seed",
                 group=-10,
-                values=[123],
+                values=[1234],
                 prepend=True,
             )
 

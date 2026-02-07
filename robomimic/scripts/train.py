@@ -233,7 +233,7 @@ def train(config, device):
         model.deserialize(ckpt_dict["model"])
 
     print("\n============= Model Summary =============")
-    print(model)  # print model summary
+    #print(model)  # print model summary
     print("")
 
     # load training data
