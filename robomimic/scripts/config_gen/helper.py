@@ -128,7 +128,7 @@ def set_env_settings(generator, args):
                 key="experiment.rollout.n",
                 name="",
                 group=-1,
-                values=[20],
+                values=[30],
                 value_names=[""],
             )
         generator.add_param(
@@ -204,7 +204,7 @@ def set_mod_settings(generator, args):
                 key="experiment.rollout.rate",
                 name="",
                 group=-1,
-                values=[20],
+                values=[30],
             )
 
 
